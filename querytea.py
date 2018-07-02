@@ -1,7 +1,7 @@
 from bigchaindb_driver import BigchainDB
 import os
 
-bdb_root_url = 'http://192.168.1.139:9984'
+bdb_root_url = 'http://192.168.0.121:9984'
 
 bdb = BigchainDB(bdb_root_url)
 
