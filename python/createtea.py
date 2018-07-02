@@ -1,6 +1,7 @@
 from bigchaindb_driver import BigchainDB
 from bigchaindb_driver.crypto import generate_keypair
-from getjson import getJson
+
+from python.getjson import getJson
 
 bdb_root_url = 'http://192.168.0.121:9984'
 
