@@ -115,7 +115,7 @@ public class jsondemo {
         // 代表传入的查询idIndex
         String idIndex = String.valueOf(0);
 
-        // http://api.xingliannong.com/api/v1/transactions?asset_id=64c6f2c1a68fb8810d5598ae67eb1345fadd226f6ccc1fb17cf98bf032413e7d
+        // http://192.168.0.121:9984/api/v1/transactions?asset_id=64c6f2c1a68fb8810d5598ae67eb1345fadd226f6ccc1fb17cf98bf032413e7d
         String bcurl = "http://api.xingliannong.com/api/v1/transactions?asset_id=" + ids.get(Integer.parseInt(idIndex));
 
         // 得到目标json
